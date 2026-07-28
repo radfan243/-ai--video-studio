@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لوحة التحكم - Nabdh AI</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">🎬 Nabdh<span>AI</span></div>
+  <div class="nav-actions">
+    <span class="credits-badge" id="creditsBadge">⚡ 10 فيديو متبقي اليوم</span>
+    <span class="user-name" id="userName">مرحباً</span>
+    <button class="btn btn-outline" id="logoutBtn">خروج</button>
+  </div>
+</header>
+
+<section class="dash-wrap">
+
+  <div class="dash-tabs">
+    <button class="dtab-btn active" id="dtabText">📝 نص إلى فيديو</button>
+    <button class="dtab-btn" id="dtabImage">🖼️ صورة إلى فيديو</button>
+  </div>
+
+  <!-- ===== نص إلى فيديو ===== -->
+  <div class="dash-panel" id="panelText">
+    <label>اكتب النص اللي بتنطقه الشخصية</label>
+    <textarea id="textInput" placeholder="اكتب هنا النص..." maxlength="500"></textarea>
+    <span class="char-count"><span id="charCount">0</span>/500</span>
+
+    <label>اختر الشخصية</label>
+    <div class="avatar-grid" id="avatarGrid">
+      <div class="avatar-card selected" data-avatar="cartoon_boy">👦 كرتون - ولد</div>
+      <div class="avatar-card" data-avatar="cartoon_girl">👧 كرتون - بنت</div>
+      <div class="avatar-card" data-avatar="realistic_man">🧑 واقعي - رجل</div>
+      <div class="avatar-card" data-avatar="realistic_woman">👩 واقعي - امرأة</div>
+    </div>
+
+    <label>لغة الصوت</label>
+    <select id="voiceLang" class="select-box">
+      <option value="ar">🇸🇦 العربية</option>
+      <option value="en">🇬🇧 English</option>
+      <option value="fr">🇫🇷 Français</option>
+      <option value="es">🇪🇸 Español</option>
+      <option value="tr">🇹🇷 Türkçe</option>
+    </select>
+
+    <button class="btn btn-primary full" id="generateTextBtn">🚀 توليد الفيديو</button>
+  </div>
+
+  <!-- ===== صورة إلى فيديو ===== -->
+  <div class="dash-panel hidden" id="panelImage">
+    <label>ارفع صورة الشخصية</label>
+    <div class="upload-box" id="uploadBox">
+      <input type="file" id="imageInput" accept="image/*" hidden>
+      <span id="uploadText">📤 اضغط لرفع صورة (JPG / PNG)</span>
+      <img id="imagePreview" class="hidden">
+    </div>
+
+    <label>اكتب النص اللي بتنطقه الصورة</label>
+    <textarea id="textInputImg" placeholder="اكتب هنا النص..." maxlength="500"></textarea>
+
+    <label>لغة الصوت</label>
+    <select id="voiceLangImg" class="select-box">
+      <option value="ar">🇸🇦 العربية</option>
+      <option value="en">🇬🇧 English</option>
+      <option value="fr">🇫🇷 Français</option>
+      <option value="es">🇪🇸 Español</option>
+      <option value="tr">🇹🇷 Türkçe</option>
+    </select>

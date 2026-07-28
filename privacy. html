@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سياسة الخصوصية - Nabdh AI</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">🎬 Nabdh<span>AI</span></div>
+  <nav class="nav-links">
+    <a href="index.html">الرئيسية</a>
+    <a href="pricing.html">الأسعار</a>
+    <a href="about.html">من نحن</a>
+    <a href="privacy.html">الخصوصية</a>
+  </nav>
+  <a href="login.html" class="btn btn-outline">تسجيل الدخول</a>
+</header>
+
+<section class="page-wrap">
+  <h1>سياسة الخصوصية</h1>
+  <p class="page-intro">نحن في Nabdh AI نحترم خصوصيتك ونلتزم بحماية بياناتك. هذه الصفحة توضح كيف نجمع ونستخدم ونحمي معلوماتك.</p>
+
+  <h2>1. المعلومات التي نجمعها</h2>
+  <ul>
+    <li>الاسم والبريد الإلكتروني عند إنشاء الحساب</li>
+    <li>النصوص والصور التي ترفعها لتوليد الفيديو</li>
+    <li>بيانات الاستخدام مثل عدد الفيديوهات المولّدة يومياً</li>
+  </ul>
+
+  <h2>2. كيف نستخدم بياناتك</h2>
+  <ul>
+    <li>لتقديم خدمة توليد الفيديو وتحسينها</li>
+    <li>لإدارة حسابك ورصيدك اليومي المجاني</li>
+    <li>للتواصل معك بخصوص التحديثات أو الدعم</li>
+  </ul>
+
+  <h2>3. حماية بياناتك</h2>
+  <p style="color:#999; font-size:14px; line-height:1.9;">لا نبيع أو نشارك بياناتك الشخصية مع أي طرف ثالث لأغراض تسويقية. الصور والنصوص التي ترفعها تُستخدم فقط لغرض توليد الفيديو المطلوب.</p>
+
+  <h2>4. حذف الحساب</h2>
+  <p style="color:#999; font-size:14px; line-height:1.9;">يحق لك طلب حذف حسابك وجميع بياناتك في أي وقت عن طريق التواصل معنا.</p>
+
+  <h2>5. التواصل</h2>
+  <p style="color:#999; font-size:14px; line-height:1.9;">لأي استفسار حول الخصوصية، راسلنا على: <a href="mailto:radfanr24@gmail.com" class="link">radfanr24@gmail.com</a></p>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Nabdh AI - جميع الحقوق محفوظة</p>
+  <div class="footer-links">
+    <a href="terms.html">الشروط والأحكام</a>
+    <a href="privacy.html">الخصوصية</a>
+    <a href="about.html">من نحن</a>
+  </div>
+</footer>
+
+</body>
+</html>
